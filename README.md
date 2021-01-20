@@ -51,7 +51,7 @@ This Produces a token of the type `http://127.0.0.1:8888/?token=<alpha-numeric c
 
 ## To Do List:
 
-- [] Check the jupyter notebook security aspect (check with NERSC and UCI see what they say 
-- [] Add bash aliases to improve the jupyter notebook 
-- [] Go through my bash cheat sheet and start adding commands
-- [] Organise the bash commands in to logical headings, e.g. job submission, file admin, etc.   
+- [ ] Check the jupyter notebook security aspect (check with NERSC and UCI see what they say 
+- [ ] Add bash aliases to improve the jupyter notebook 
+- [ ] Go through my bash cheat sheet and start adding commands
+- [ ] Organise the bash commands in to logical headings, e.g. job submission, file admin, etc.   
