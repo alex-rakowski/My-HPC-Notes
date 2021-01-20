@@ -27,21 +27,21 @@
 #### Login node
 1. On local machine, Login to the HPC `ssh <username>@hpc.domain`
 2. On HPC, Start a Jupyer notebook `jupyter notebook --no-browser --port=<port_number>` *port_number is 4 digits, avoid picking the standard 8888 port*     
-This Produces a token of the type `http://127.0.0.1:8888/?token=<alpha-numeric characters>`
+This Produces a token of the type `http://127.0.0.1:<port_number>/?token=<alpha-numeric characters>`
 *If you pick an already in use port the HPC will try different ones, make a note of the actual port number it is running on
 3. On local, In a separate terminal create your ssh tunnel 
 `ssh -NL port_number:LocalHost:LocalHost:port_number <username>@hpc.domain`
-4. On local, copy the token `http://127.0.0.1:8888/?token=<alpha-numeric characters>` from the HPC terminal into your local browser. 
+4. On local, copy the token `http://127.0.0.1:<port_number>/?token=<alpha-numeric characters>` from the HPC terminal into your local browser. 
 
 #### Compute node
 1. On local machine, login to the HPC `ssh <usename>@hpc.domain`
 2. On HPC, get an interactive session e.g. in slurm `srun <your compute needs, parition etc.>
 3. On HPC interactive node, make a note of the compute note you assigned, you can run `hostname` to double check 
 4. On HPC interactive node, start a jupyter notebook `jupyter notebook --no-browser --port=<port_number> --ip=$(hostname)`
-This Produces a token of the type `http://127.0.0.1:8888/?token=<alpha-numeric characters>`
+This Produces a token of the type `http://127.0.0.1:<port_number>/?token=<alpha-numeric characters>`
 5. On local machine in a separate terminal create you ssh tunnel 
 `ssh -NL port_number:hostname:port_number <username>@hpc.domain`
-6. On local, copy the token `http://127.0.0.1:8888/?token=<alpha-numeric characters>` from the HPC terminal into your local browser.
+6. On local, copy the token `http://127.0.0.1:<port_number>/?token=<alpha-numeric characters>` from the HPC terminal into your local browser.
 
 
   
