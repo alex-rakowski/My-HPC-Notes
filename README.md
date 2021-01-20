@@ -30,7 +30,7 @@
 This Produces a token of the type `http://127.0.0.1:<port_number>/?token=<alpha-numeric characters>`
 *If you pick an already in use port the HPC will try different ones, make a note of the actual port number it is running on
 3. On local, In a separate terminal create your ssh tunnel 
-`ssh -NL port_number:LocalHost:LocalHost:port_number <username>@hpc.domain`
+`ssh -NL LocalHost:port_number:LocalHost:port_number <username>@hpc.domain`
 4. On local, copy the token `http://127.0.0.1:<port_number>/?token=<alpha-numeric characters>` from the HPC terminal into your local browser. 
 
 #### Compute node
