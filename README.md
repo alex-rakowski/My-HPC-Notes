@@ -1,5 +1,6 @@
 # HPC-Tutorials
-Non-exahustative list of useful tutorials and snippets of code I've found or worked out along for performing Electron Microscopy focused HPC tasks. 
+- Centralising where I put all my notes, links and basic scripts
+- Non-exahustative list of useful tutorials and snippets of code I've found or worked out along for performing Electron Microscopy focused HPC tasks. 
 
 ## Useful Links
 
