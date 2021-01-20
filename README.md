@@ -5,7 +5,7 @@ Non-exahustative list of useful tutorials and snippets of code I've found or wor
 
 ### General HPC Resources 
 - [LLNL](https://hpc.llnl.gov/training/tutorials)
-- [NERSEC](https://www.nersc.gov/users/training/online-tutorials/)
+- [NERSC](https://www.nersc.gov/users/training/online-tutorials/)
 - [OakRidge NL](https://www.olcf.ornl.gov/for-users/training/)
 - [Exascale Computing Project](https://www.exascaleproject.org/all-training-events/)
 - [Argone NL](https://www.alcf.anl.gov/support-center/training-overview)
@@ -46,3 +46,12 @@ This Produces a token of the type `http://127.0.0.1:8888/?token=<alpha-numeric c
   
 
 ### Various Bash Commands
+
+
+
+## To Do List:
+
+- [] Check the jupyter notebook security aspect (check with NERSC and UCI see what they say 
+- [] Add bash aliases to improve the jupyter notebook 
+- [] Go through my bash cheat sheet and start adding commands
+- [] Organise the bash commands in to logical headings, e.g. job submission, file admin, etc.   
